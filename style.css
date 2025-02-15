@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+:root {
+    --cor01: #f2e6f0;
+    --cor02: #ffb9ed;
+    --cor03: #FF91B7;
+    --cor04: #DE4E9F;
+    --cor05: #913368;
+    --cor06: #4C1B37;
+
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Lavishly Yours", serif;
+    font-style: normal;
+    font-size: 50px;
+    color: #913368;
+}
+
+header > p {
+    padding-bottom: 40px;
+}
+
+nav{
+    background-color: #DE4E9F;
+    color: white;
+    padding-top: 20px;
+    padding: 10px;
+    font-family: "Poiret One", serif;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #FF91B7;
+    color: #913368;
+    transition-duration: 0.5s;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+    padding-bottom: 300px;
+}
+
+main > h1 {
+    padding: 20px;
+    color: #913368;
+    font-family: "Poiret One", serif;
+}
+
+main > h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: larger;
+    color: #4C1B37;
+    font-family: "Poiret One", serif;
+}
+
+.boas-vindas > h1 {
+    padding: 20px;
+    color: #913368;
+    text-align: center;
+    font-family: "Merienda", serif;
+}
+
+.boas-vindas > p {
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.despedida {
+    text-align: center;
+}
+
+.minha-foto {
+    border-radius: 280px;
+    display: block;
+    margin: auto;
+}
+
+.apresentacao {
+    width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.imagem-texto {
+    display: flex;
+    align-items: center;
+}
+.imagem-texto img {
+    margin-right: 10px;
+}
+
+.link-blog {
+    height: 200px;
+    padding-right: 20px;
+}
+
+.link-blog h2 {
+    padding-top: 40px;
+}
+
+.link-blog a {
+    color: #DE4E9F;
+    text-decoration: none;
+}
+
+.link-blog a:hover {
+    text-decoration: underline;
+}
+
+.link-blog p {
+    padding-top: 30px;
+}
+
+.data p {
+    text-align: right;
+    
+}
+
+.link-navegacao > p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.link-navegacao > p > a {
+    color: #DE4E9F;
+    text-decoration: none;
+}
+
+.social-media li {
+    padding: 10px;
+}
+
+.social-media img {
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+}
+
+.social-media a {
+    color: #DE4E9F;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #4C1B37;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
